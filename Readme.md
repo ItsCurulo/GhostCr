@@ -25,7 +25,7 @@ Key technologies and concepts implemented in this project:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/ItsCurulo/GhostCr.git](https://github.com/ItsCurulo/GhostCr.git)
+    git clone https://github.com/ItsCurulo/GhostCr.git
     cd GhostCr
     ```
 
