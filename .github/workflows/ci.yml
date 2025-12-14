@@ -21,7 +21,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        # Install via sudo so that 'sudo python' can find the library
+        # Install for current user (for smoke test)
+        pip install -r requirements.txt
+        # Install for root (for sudo functional test)
         sudo pip install -r requirements.txt
 
     - name: Verification Smoke Test (Help)
